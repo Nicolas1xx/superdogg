@@ -1,0 +1,44 @@
+#caixacadastro {
+    width: 350px;
+    margin: 50px auto;
+    padding: 40px 50px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+#caixacadastro h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#caixacadastro label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#caixacadastro input[type="text"],
+#caixacadastro input[type="email"],
+#caixacadastro input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#caixacadastro input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#caixacadastro input[type="submit"]:hover {
+    background-color: #3578e5;
+}
